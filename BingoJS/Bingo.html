@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Bingo</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			h1{color:red;font-size:20px;}
+			div.letra{font-size:20px;font-family:Arial,sans-serif;}
+		</style>
+	</head>
+	<body>
+		<a href="../index.html" style="text-decoration: none;font-size: 50px;color: red;background-color: #000;padding: 5px; ">MENU</a>	
+		<h1>Clique na imagem abaixo para sortear</h1>
+		<img src="imagem/botao1.jpg" id="sorteia" onclick="sorteio()"><br>
+		<h1>Numero sorteado</h1>
+		<div class="letra" id="numeros"></div>
+		<h1>Numeros sorteados</h1>
+		<div class="letra" id="grupo"></div>
+		<h1>Clique na imagem abaixo para Trocar sua cartela<br>So e permitido trocar a cartela antes de começar</h1>
+		<img src="imagem/botao2.jpg" id="troca" onclick="troca()"><br>
+		<h1>Sua Cartela</h1>
+		<div class="letra" id="cartela"></div><br>
+		<div class="letra" id="acerto"></div>	
+	<script type="text/javascript" src="JavaScript/Bingo.js"></script>
+	</body>
+</html>
