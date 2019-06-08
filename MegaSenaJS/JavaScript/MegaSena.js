@@ -3,6 +3,8 @@ Feito por Bruno Dias
 	03/11/2018
 Caso fassa alguma alteração poste no github ou mande o link
 GitHub = https://github.com/CodandoCafeina
+
+alterado 08/06/2019
 */
 var bilhete1=new Array();var erros=new Array();var bilhete=new Array();var lista=new Array();
 var bilhet=new Array();var bilhete2=new Array();var bilhe=new Array();

@@ -1,0 +1,14 @@
+body{
+	background-color: #223;
+}
+a{
+	cursor: pointer;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+}
+.info{
+	font-size: 25px;
+	margin-top: 65px;
+}
